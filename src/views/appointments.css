@@ -1,0 +1,1240 @@
+.appointments-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.appointments-appointments {
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-image: linear-gradient(180deg, rgba(215, 137, 215, 1) 0%, rgba(157, 101, 201, 1) 50%, rgba(248, 217, 248, 1) 100%);
+}
+.appointments-group5 {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 325px;
+  bottom: 0px;
+  height: 576px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.appointments-notifications {
+  top: 0px;
+  left: 0px;
+  width: 381px;
+  height: 227px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.appointments-rectangle10 {
+  top: 9px;
+  left: -6px;
+  width: 355px;
+  height: 46px;
+  margin: auto;
+  position: absolute;
+  border-radius: 9px;
+}
+.appointments-rectangle9 {
+  top: 33px;
+  left: 8px;
+  width: 329px;
+  height: 194px;
+  position: absolute;
+  border-radius: 9px;
+}
+.appointments-text {
+  top: 15px;
+  color: rgba(0, 0, 0, 1);
+  right: -1px;
+  width: 350px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Noto Sans Tamil UI;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.appointments-text02 {
+  top: 44px;
+  color: rgb(0, 0, 0);
+  right: -17px;
+  width: 350px;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Noto Sans Tamil UI;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.appointments-line2 {
+  top: 63px;
+  left: 32px;
+  width: 265px;
+  height: 0px;
+  position: absolute;
+}
+.appointments-line3 {
+  top: 91px;
+  left: 32px;
+  width: 265px;
+  height: 0px;
+  position: absolute;
+}
+.appointments-line4 {
+  top: 119px;
+  left: 32px;
+  width: 265px;
+  height: 0px;
+  position: absolute;
+}
+.appointments-line5 {
+  top: 147px;
+  left: 32px;
+  width: 265px;
+  height: 0px;
+  position: absolute;
+}
+.appointments-line6 {
+  top: 175px;
+  left: 32px;
+  width: 265px;
+  height: 0px;
+  position: absolute;
+}
+.appointments-line7 {
+  top: 202px;
+  left: 32px;
+  width: 265px;
+  height: 0px;
+  position: absolute;
+}
+.appointments-friends {
+  top: 47px;
+  left: 0px;
+  width: 345px;
+  height: 529px;
+  display: flex;
+  position: absolute;
+  align-items: flex-end;
+  flex-shrink: 1;
+  justify-content: center;
+}
+.appointments-rectangle15 {
+  top: 190px;
+  left: -4px;
+  width: 348px;
+  height: 44px;
+  margin: auto;
+  position: absolute;
+  border-radius: 9px;
+}
+.appointments-text03 {
+  top: 193px;
+  color: rgba(0, 0, 0, 1);
+  right: -2px;
+  width: 314px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Noto Sans Tamil UI;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.appointments-rectangle13 {
+  top: 214px;
+  right: 11px;
+  width: 329px;
+  height: 205px;
+  position: absolute;
+  border-radius: 9px;
+}
+.appointments-text05 {
+  top: 225px;
+  color: rgb(0, 0, 0);
+  right: -52px;
+  width: 350px;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Noto Sans Tamil UI;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.appointments-text06 {
+  top: 252px;
+  color: rgb(0, 0, 0);
+  right: -52px;
+  width: 350px;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Noto Sans Tamil UI;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.appointments-text07 {
+  top: 279px;
+  color: rgb(0, 0, 0);
+  right: -52px;
+  width: 350px;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Noto Sans Tamil UI;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.appointments-text08 {
+  top: 308px;
+  color: rgb(0, 0, 0);
+  right: -52px;
+  width: 350px;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Noto Sans Tamil UI;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.appointments-text09 {
+  top: 338px;
+  color: rgb(0, 0, 0);
+  right: -52px;
+  width: 350px;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Noto Sans Tamil UI;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.appointments-text10 {
+  top: 364px;
+  color: rgb(0, 0, 0);
+  right: -52px;
+  width: 350px;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Noto Sans Tamil UI;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.appointments-text11 {
+  top: 24px;
+  color: rgb(0, 0, 0);
+  right: -53px;
+  width: 350px;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Noto Sans Tamil UI;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.appointments-text12 {
+  top: 53px;
+  color: rgb(0, 0, 0);
+  right: -53px;
+  width: 350px;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Noto Sans Tamil UI;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.appointments-text13 {
+  top: 79px;
+  color: rgb(0, 0, 0);
+  right: -53px;
+  width: 350px;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Noto Sans Tamil UI;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.appointments-text14 {
+  top: 108px;
+  color: rgb(0, 0, 0);
+  right: -53px;
+  width: 350px;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Noto Sans Tamil UI;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.appointments-text15 {
+  top: 134px;
+  color: rgb(0, 0, 0);
+  right: -53px;
+  width: 350px;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Noto Sans Tamil UI;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.appointments-rectangle14 {
+  top: 1px;
+  right: 15px;
+  width: 7px;
+  height: 18px;
+  position: absolute;
+  border-radius: 3px;
+}
+.appointments-line1 {
+  top: 234px;
+  right: -136px;
+  width: 158px;
+  height: 0px;
+  position: absolute;
+}
+.appointments-rectangle11 {
+  top: 236px;
+  right: 18px;
+  width: 7px;
+  height: 18px;
+  position: absolute;
+  border-radius: 3px;
+}
+.appointments-uilschedule {
+  top: 16px;
+  left: 7px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.appointments-mdiclockalertoutline {
+  top: 303px;
+  left: 29px;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+}
+.appointments-line8 {
+  top: 292px;
+  left: 29px;
+  width: 265px;
+  height: 0px;
+  position: absolute;
+}
+.appointments-line9 {
+  top: 321px;
+  left: 29px;
+  width: 265px;
+  height: 0px;
+  position: absolute;
+}
+.appointments-line10 {
+  top: 349px;
+  left: 29px;
+  width: 265px;
+  height: 0px;
+  position: absolute;
+}
+.appointments-line11 {
+  top: 377px;
+  left: 29px;
+  width: 265px;
+  height: 0px;
+  position: absolute;
+}
+.appointments-line12 {
+  top: 405px;
+  left: 29px;
+  width: 265px;
+  height: 0px;
+  position: absolute;
+}
+.appointments-line13 {
+  top: 432px;
+  left: 29px;
+  width: 265px;
+  height: 0px;
+  position: absolute;
+}
+.appointments-akariconsschedule {
+  top: 241px;
+  left: 9px;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.appointments-group {
+  top: 2px;
+  left: 2px;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.appointments-vector {
+  top: 0px;
+  left: 0px;
+  width: 19px;
+  height: 18px;
+  position: absolute;
+}
+.appointments-vector01 {
+  top: 10px;
+  left: 10px;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+}
+.appointments-mdiclockoutline {
+  top: 44px;
+  left: 32px;
+  width: 17px;
+  height: 17px;
+  position: absolute;
+}
+.appointments-line71 {
+  top: 0px;
+  left: 326px;
+  width: 51px;
+  height: 0px;
+  position: absolute;
+}
+.appointments-mdiclockoutline1 {
+  top: 72px;
+  left: 32px;
+  width: 17px;
+  height: 17px;
+  position: absolute;
+}
+.appointments-mdiclockoutline2 {
+  top: 100px;
+  left: 32px;
+  width: 17px;
+  height: 17px;
+  position: absolute;
+}
+.appointments-mdiclockoutline3 {
+  top: 128px;
+  left: 32px;
+  width: 17px;
+  height: 17px;
+  position: absolute;
+}
+.appointments-mdiclockoutline4 {
+  top: 156px;
+  left: 32px;
+  width: 17px;
+  height: 17px;
+  position: absolute;
+}
+.appointments-mdiclockoutline5 {
+  top: 183px;
+  left: 32px;
+  width: 17px;
+  height: 17px;
+  position: absolute;
+}
+.appointments-mdiclockalertoutline1 {
+  top: 387px;
+  left: 31px;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+}
+.appointments-mdiclockalertoutline2 {
+  top: 414px;
+  left: 31px;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+}
+.appointments-mdiclockcheckoutline {
+  top: 273px;
+  left: 29px;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+}
+.appointments-mdiclockcheckoutline1 {
+  top: 330px;
+  left: 30px;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+}
+.appointments-mdiclockcheckoutline2 {
+  top: 358px;
+  left: 30px;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+}
+.appointments-rectangle1 {
+  left: 0px;
+  right: 0px;
+  width: 354px;
+  bottom: 54px;
+  height: 69px;
+  margin: auto;
+  display: none;
+  position: absolute;
+  border-radius: 33px;
+}
+.appointments-container1 {
+  left: 0px;
+  right: 0px;
+  width: 283.99310302734375px;
+  bottom: 75px;
+  height: 45.00000762939453px;
+  margin: auto;
+  display: none;
+  position: absolute;
+  align-items: flex-start;
+}
+.appointments-streamlinemailchatbubbletypingovalmessagesmessageb {
+  top: 3.00347900390625px;
+  left: 61.99652099609375px;
+  width: 39px;
+  height: 39px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  text-decoration: none;
+}
+.appointments-group1 {
+  top: 5.73529052734375px;
+  left: 3.441162109375px;
+  width: 31.558837890625px;
+  height: 29.577743530273438px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.appointments-vector02 {
+  top: 13.651275634765625px;
+  left: 6.067211151123047px;
+  width: 2px;
+  height: 2px;
+  position: absolute;
+}
+.appointments-vector03 {
+  top: 13.651275634765625px;
+  left: 13.954618453979492px;
+  width: 2px;
+  height: 2px;
+  position: absolute;
+}
+.appointments-vector04 {
+  top: 13.651275634765625px;
+  left: 21.841960906982422px;
+  width: 2px;
+  height: 2px;
+  position: absolute;
+}
+.appointments-vector05 {
+  top: 0px;
+  left: 0px;
+  right: mixed;
+  width: 32px;
+  height: 30px;
+  position: absolute;
+}
+.appointments-basilbookcheckoutline {
+  top: 0px;
+  left: 0px;
+  width: 42px;
+  height: 45px;
+  position: absolute;
+  text-decoration: none;
+}
+.appointments-tablermoodplus {
+  top: 3.9930419921875px;
+  right: 61.006988525390625px;
+  width: 38px;
+  height: 38px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  text-decoration: none;
+}
+.appointments-group2 {
+  top: 4.7498087882995605px;
+  left: 4.750794887542725px;
+  width: 30.08254051208496px;
+  height: 30.08352279663086px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.appointments-vector06 {
+  top: 0px;
+  left: 0px;
+  right: mixed;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+}
+.appointments-vector07 {
+  top: 19.00019073486328px;
+  left: 10.290871620178223px;
+  width: 8px;
+  height: 2px;
+  position: absolute;
+}
+.appointments-rimenu4line {
+  top: 5px;
+  right: 0px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  text-decoration: none;
+}
+.appointments-materialsymbolshome {
+  top: 3.00347900390625px;
+  left: 121.99652099609375px;
+  width: 42px;
+  height: 42px;
+  position: absolute;
+}
+.appointments-text16 {
+  top: 745px;
+  left: 0px;
+  color: rgb(0, 0, 0);
+  right: 0px;
+  width: 314px;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Noto Sans Tamil UI;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.appointments-form {
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  bottom: 135px;
+  height: 100px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+}
+.appointments-textinput {
+  color: #5d54a4;
+  width: 200px;
+  height: 45px;
+  border-color: #f4c0ff;
+  background-color: #fdd6ff;
+}
+.appointments-button {
+  color: rgb(255, 255, 255);
+  width: 150px;
+  height: 42px;
+  align-self: center;
+  text-align: center;
+  background-color: rgba(134, 84, 164, 0.79);
+}
+.appointments-navbar-interactive {
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+}
+.appointments-desktop-menu {
+  display: flex;
+}
+.appointments-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.appointments-navlink04 {
+  text-decoration: none;
+}
+.appointments-navlink05 {
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.appointments-navlink06 {
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.appointments-navlink07 {
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.appointments-navlink08 {
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.appointments-btn-group {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.appointments-burger-menu {
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.appointments-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.appointments-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: 32px;
+  z-index: 100;
+  position: fixed;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.appointments-nav1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.appointments-container2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.appointments-image {
+  height: 2rem;
+}
+.appointments-menu-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.appointments-icon02 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.appointments-nav2 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.appointments-text17 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.appointments-text18 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.appointments-text19 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.appointments-text20 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.appointments-text21 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.appointments-container3 {
+  flex: 0 0 auto;
+  width: auto;
+  display: flex;
+  margin-top: var(--dl-space-space-unit);
+  align-items: center;
+  flex-direction: row;
+}
+.appointments-login {
+  margin-right: var(--dl-space-space-twounits);
+}
+.appointments-icon-group {
+  display: flex;
+}
+.appointments-icon04 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.appointments-icon06 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.appointments-icon08 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.appointments-unilifeease1 {
+  top: -4px;
+  left: 0px;
+  right: 0px;
+  width: 553px;
+  height: 143px;
+  margin: auto;
+  position: absolute;
+}
+.appointments-unilifeease11 {
+  top: 20px;
+  left: 0px;
+  right: 0px;
+  width: 231px;
+  height: 60px;
+  margin: auto;
+  display: none;
+  position: absolute;
+}
+.appointments-rectangle11 {
+  left: 0px;
+  right: 0px;
+  width: 354px;
+  bottom: 54px;
+  height: 69px;
+  margin: auto;
+  display: none;
+  position: absolute;
+  border-radius: 33px;
+}
+.appointments-container4 {
+  left: 0px;
+  right: 0px;
+  width: 283.99310302734375px;
+  bottom: 75px;
+  height: 45.00000762939453px;
+  margin: auto;
+  display: none;
+  position: absolute;
+  align-items: flex-start;
+}
+.appointments-streamlinemailchatbubbletypingovalmessagesmessageb1 {
+  top: 3.00347900390625px;
+  left: 61.99652099609375px;
+  width: 39px;
+  height: 39px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  text-decoration: none;
+}
+.appointments-group3 {
+  top: 5.73529052734375px;
+  left: 3.441162109375px;
+  width: 31.558837890625px;
+  height: 29.577743530273438px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.appointments-vector08 {
+  top: 13.651275634765625px;
+  left: 6.067211151123047px;
+  width: 2px;
+  height: 2px;
+  position: absolute;
+}
+.appointments-vector09 {
+  top: 13.651275634765625px;
+  left: 13.954618453979492px;
+  width: 2px;
+  height: 2px;
+  position: absolute;
+}
+.appointments-vector10 {
+  top: 13.651275634765625px;
+  left: 21.841960906982422px;
+  width: 2px;
+  height: 2px;
+  position: absolute;
+}
+.appointments-vector11 {
+  top: 0px;
+  left: 0px;
+  right: mixed;
+  width: 32px;
+  height: 30px;
+  position: absolute;
+}
+.appointments-basilbookcheckoutline1 {
+  top: 0px;
+  left: 0px;
+  width: 42px;
+  height: 45px;
+  position: absolute;
+  text-decoration: none;
+}
+.appointments-tablermoodplus1 {
+  top: 3.9930419921875px;
+  right: 61.006988525390625px;
+  width: 38px;
+  height: 38px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  text-decoration: none;
+}
+.appointments-group4 {
+  top: 4.7498087882995605px;
+  left: 4.750794887542725px;
+  width: 30.08254051208496px;
+  height: 30.08352279663086px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.appointments-vector12 {
+  top: 0px;
+  left: 0px;
+  right: mixed;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+}
+.appointments-vector13 {
+  top: 19.00019073486328px;
+  left: 10.290871620178223px;
+  width: 8px;
+  height: 2px;
+  position: absolute;
+}
+.appointments-rimenu4line1 {
+  top: 5px;
+  right: 0px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  text-decoration: none;
+}
+.appointments-materialsymbolshome1 {
+  top: 3.00347900390625px;
+  left: 121.99652099609375px;
+  width: 42px;
+  height: 42px;
+  position: absolute;
+}
+.appointments-rectangle101 {
+  top: 724px;
+  left: 0px;
+  right: 0px;
+  width: 405px;
+  height: 77px;
+  margin: auto;
+  position: absolute;
+  border-radius: 9px;
+}
+@media(max-width: 1600px) {
+  .appointments-unilifeease1 {
+    top: -4px;
+    left: 559px;
+    margin: auto;
+  }
+  .appointments-unilifeease11 {
+    display: none;
+  }
+}
+@media(max-width: 1200px) {
+  .appointments-unilifeease1 {
+    top: -6px;
+    left: 342px;
+    margin: auto;
+  }
+}
+@media(max-width: 991px) {
+  .appointments-rectangle1 {
+    left: -2px;
+    width: 359px;
+    bottom: 65px;
+    height: 61px;
+    margin: auto;
+  }
+  .appointments-streamlinemailchatbubbletypingovalmessagesmessageb {
+    top: 3px;
+    left: 48px;
+  }
+  .appointments-basilbookcheckoutline {
+    top: 5px;
+    left: -14px;
+    width: 38px;
+    bottom: 9px;
+    height: 38px;
+  }
+  .appointments-materialsymbolshome {
+    top: 1px;
+    left: 112px;
+    bottom: 7px;
+  }
+  .appointments-navbar-interactive {
+    display: none;
+  }
+  .appointments-unilifeease1 {
+    display: none;
+  }
+  .appointments-unilifeease11 {
+    top: 23px;
+    left: 0px;
+    right: 0px;
+    width: 382px;
+    height: 98px;
+    margin: auto;
+    display: flex;
+    padding-bottom: 0px;
+  }
+  .appointments-rectangle11 {
+    left: -2px;
+    width: 359px;
+    bottom: 65px;
+    height: 61px;
+    margin: auto;
+    display: flex;
+  }
+  .appointments-container4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .appointments-streamlinemailchatbubbletypingovalmessagesmessageb1 {
+    top: 3px;
+    left: 48px;
+  }
+  .appointments-basilbookcheckoutline1 {
+    top: 5px;
+    left: -14px;
+    width: 38px;
+    bottom: 9px;
+    height: 38px;
+  }
+  .appointments-materialsymbolshome1 {
+    top: 1px;
+    left: 112px;
+    bottom: 7px;
+  }
+}
+@media(max-width: 767px) {
+  .appointments-rectangle1 {
+    right: 0px;
+    width: 357px;
+    height: 60px;
+    margin: auto;
+  }
+  .appointments-tablermoodplus {
+    left: 193px;
+    bottom: 0px;
+  }
+  .appointments-rimenu4line {
+    right: -14px;
+    bottom: -1px;
+  }
+  .appointments-materialsymbolshome {
+    top: 2px;
+    left: 121px;
+  }
+  .appointments-navbar-interactive {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .appointments-desktop-menu {
+    display: none;
+  }
+  .appointments-navlink05 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .appointments-navlink06 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .appointments-navlink07 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .appointments-navlink08 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .appointments-btn-group {
+    display: none;
+  }
+  .appointments-burger-menu {
+    display: flex;
+  }
+  .appointments-rectangle11 {
+    right: 0px;
+    width: 357px;
+    height: 60px;
+    margin: auto;
+    display: flex;
+  }
+  .appointments-container4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .appointments-tablermoodplus1 {
+    left: 193px;
+    bottom: 0px;
+  }
+  .appointments-rimenu4line1 {
+    right: -14px;
+    bottom: -1px;
+  }
+  .appointments-materialsymbolshome1 {
+    top: 2px;
+    left: 121px;
+  }
+}
+@media(max-width: 479px) {
+  .appointments-appointments {
+    align-self: center;
+  }
+  .appointments-rectangle1 {
+    left: -5px;
+    width: 370px;
+    bottom: 61px;
+    height: 66px;
+    margin: auto;
+  }
+  .appointments-navbar-interactive {
+    padding: var(--dl-space-space-unit);
+  }
+  .appointments-mobile-menu {
+    padding: 16px;
+  }
+  .appointments-unilifeease1 {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+  .appointments-unilifeease11 {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+  .appointments-rectangle11 {
+    left: -5px;
+    width: 370px;
+    bottom: 61px;
+    height: 66px;
+    margin: auto;
+    display: flex;
+  }
+  .appointments-container4 {
+    align-items: center;
+    justify-content: center;
+  }
+}

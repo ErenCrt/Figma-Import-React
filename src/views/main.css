@@ -1,0 +1,1786 @@
+.main-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.main-home {
+  width: 100%;
+  height: 1066px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  justify-content: center;
+  background-image: linear-gradient(180deg, rgba(215, 137, 215, 1) 0%, rgba(157, 101, 201, 1) 50%, rgba(248, 217, 248, 1) 100%);
+}
+.main-unilifeease1 {
+  top: 20px;
+  left: 0px;
+  right: 0px;
+  width: 231px;
+  height: 60px;
+  margin: auto;
+  display: none;
+  position: absolute;
+}
+.main-unilifeease11 {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 531px;
+  height: 143px;
+  margin: auto;
+  position: absolute;
+  align-self: flex-start;
+}
+.main-group3 {
+  top: 128px;
+  left: 0px;
+  right: 0px;
+  width: 497px;
+  height: 696px;
+  margin: auto;
+  display: none;
+  position: absolute;
+  align-items: flex-end;
+  flex-shrink: 1;
+  justify-content: flex-start;
+}
+.main-notifications {
+  top: 141px;
+  left: -207px;
+  width: 345px;
+  height: 227px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.main-rectangle10 {
+  top: 4px;
+  flex: 1;
+  left: -10px;
+  width: 361px;
+  height: 49px;
+  position: absolute;
+  border-radius: 9px;
+}
+.main-rectangle9 {
+  top: 33px;
+  flex: 1;
+  left: 8px;
+  width: 329px;
+  height: 194px;
+  position: absolute;
+  border-radius: 9px;
+}
+.main-text {
+  top: 8px;
+  left: 29px;
+  color: rgba(0, 0, 0, 1);
+  width: 228px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Noto Sans Tamil UI;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.main-text02 {
+  top: 44px;
+  left: 57px;
+  color: rgba(0, 0, 0, 1);
+  width: 228px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Noto Sans Tamil UI;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.main-text04 {
+  top: 156px;
+  flex: 1;
+  left: 57px;
+  color: rgba(0, 0, 0, 1);
+  width: 228px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Noto Sans Tamil UI;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.main-text06 {
+  top: 183px;
+  flex: 1;
+  left: 57px;
+  color: rgba(0, 0, 0, 1);
+  width: 269px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Noto Sans Tamil UI;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.main-text08 {
+  top: 72px;
+  flex: 1;
+  left: 57px;
+  color: rgba(0, 0, 0, 1);
+  width: 244px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Noto Sans Tamil UI;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.main-text10 {
+  top: 100px;
+  flex: 1;
+  left: 57px;
+  color: rgba(0, 0, 0, 1);
+  width: 244px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Noto Sans Tamil UI;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.main-text12 {
+  top: 128px;
+  flex: 1;
+  left: 57px;
+  color: rgba(0, 0, 0, 1);
+  width: 277px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Noto Sans Tamil UI;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.main-line1 {
+  top: 48px;
+  flex: 1;
+  left: 326px;
+  width: 158px;
+  height: 0px;
+  position: absolute;
+}
+.main-line2 {
+  top: 63px;
+  flex: 1;
+  left: 32px;
+  width: 265px;
+  height: 0px;
+  position: absolute;
+}
+.main-line3 {
+  top: 91px;
+  flex: 1;
+  left: 32px;
+  width: 265px;
+  height: 0px;
+  position: absolute;
+}
+.main-line4 {
+  top: 119px;
+  flex: 1;
+  left: 32px;
+  width: 265px;
+  height: 0px;
+  position: absolute;
+}
+.main-line5 {
+  top: 147px;
+  flex: 1;
+  left: 32px;
+  width: 265px;
+  height: 0px;
+  position: absolute;
+}
+.main-line6 {
+  top: 175px;
+  flex: 1;
+  left: 32px;
+  width: 265px;
+  height: 0px;
+  position: absolute;
+}
+.main-line7 {
+  top: 202px;
+  flex: 1;
+  left: 32px;
+  width: 265px;
+  height: 0px;
+  position: absolute;
+}
+.main-tablermessagecircle {
+  top: 73px;
+  flex: 1;
+  left: 37px;
+  width: 17px;
+  height: 17px;
+  position: absolute;
+}
+.main-tablermessagecircle1 {
+  top: 101px;
+  flex: 1;
+  left: 37px;
+  width: 17px;
+  height: 17px;
+  position: absolute;
+}
+.main-tablermessagecircle2 {
+  top: 186px;
+  flex: 1;
+  left: 37px;
+  width: 17px;
+  height: 17px;
+  position: absolute;
+}
+.main-carbonfaceadd {
+  top: 47px;
+  flex: 1;
+  left: 38px;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+}
+.main-carbonfaceadd1 {
+  top: 159px;
+  flex: 1;
+  left: 37px;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+}
+.main-iconparkoutlineappointment {
+  top: 128px;
+  flex: 1;
+  left: 37px;
+  width: 17px;
+  height: 17px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.main-group {
+  top: 1.4166666269302368px;
+  left: 1.4166666269302368px;
+  width: 13.8125px;
+  height: 13.8125px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.main-vector {
+  top: 3.973643103449831e-8px;
+  left: 4.604166507720947px;
+  width: 5px;
+  height: 5px;
+  position: absolute;
+}
+.main-vector01 {
+  top: 7.4375px;
+  left: 3.973643103449831e-8px;
+  width: 6px;
+  height: 6px;
+  position: absolute;
+}
+.main-vector02 {
+  top: 7.4375px;
+  left: 7.4375px;
+  width: 6px;
+  height: 6px;
+  position: absolute;
+}
+.main-vector03 {
+  top: 9.5625px;
+  left: 10.270833015441895px;
+  width: 1px;
+  height: 1px;
+  position: absolute;
+}
+.main-mditargetarrow {
+  top: 12px;
+  flex: 1;
+  left: 2px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.main-friends {
+  top: 130px;
+  right: -280px;
+  width: 345px;
+  height: 240px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 1;
+  justify-content: center;
+}
+.main-rectangle101 {
+  top: 4px;
+  left: -10px;
+  width: 361px;
+  height: 49px;
+  margin: auto;
+  position: absolute;
+  border-radius: 9px;
+}
+.main-text14 {
+  top: 10px;
+  left: 37px;
+  color: rgba(0, 0, 0, 1);
+  width: 228px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Noto Sans Tamil UI;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.main-rectangle13 {
+  top: 35px;
+  left: 8px;
+  width: 329px;
+  height: 205px;
+  position: absolute;
+  border-radius: 9px;
+}
+.main-line71 {
+  top: 68px;
+  left: 326px;
+  width: 51px;
+  height: 0px;
+  position: absolute;
+}
+.main-lauserfriends {
+  top: 12px;
+  left: 8px;
+  width: 28px;
+  height: 28px;
+  position: absolute;
+}
+.main-materialsymbolsface {
+  top: 65px;
+  left: 42px;
+  width: 45px;
+  height: 45px;
+  position: absolute;
+}
+.main-materialsymbolsface2 {
+  top: 65px;
+  left: 153px;
+  width: 45px;
+  height: 45px;
+  position: absolute;
+}
+.main-materialsymbolsface3 {
+  top: 159px;
+  left: 153px;
+  width: 45px;
+  height: 45px;
+  position: absolute;
+}
+.main-materialsymbolsface3outline {
+  top: 158px;
+  left: 42px;
+  width: 45px;
+  height: 45px;
+  position: absolute;
+}
+.main-materialsymbolsface6 {
+  top: 65px;
+  left: 255px;
+  width: 45px;
+  height: 45px;
+  position: absolute;
+}
+.main-icroundface4 {
+  top: 157px;
+  left: 255px;
+  width: 45px;
+  height: 45px;
+  position: absolute;
+}
+.main-text16 {
+  top: 46px;
+  left: 50px;
+  color: rgba(0, 0, 0, 1);
+  width: 29px;
+  height: auto;
+  position: absolute;
+  font-size: 13px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Noto Sans Tamil UI;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.main-text18 {
+  top: 108px;
+  left: 53px;
+  color: rgba(0, 0, 0, 1);
+  width: 24px;
+  height: auto;
+  position: absolute;
+  font-size: 13px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Noto Sans Tamil UI;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.main-text20 {
+  top: 203px;
+  left: 43px;
+  color: rgba(0, 0, 0, 1);
+  width: 43px;
+  height: auto;
+  position: absolute;
+  font-size: 13px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Noto Sans Tamil UI;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.main-text22 {
+  top: 203px;
+  left: 154px;
+  color: rgba(0, 0, 0, 1);
+  width: 43px;
+  height: auto;
+  position: absolute;
+  font-size: 13px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Noto Sans Tamil UI;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.main-text24 {
+  top: 203px;
+  left: 259px;
+  color: rgba(0, 0, 0, 1);
+  width: 43px;
+  height: auto;
+  position: absolute;
+  font-size: 13px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Noto Sans Tamil UI;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.main-text26 {
+  top: 108px;
+  left: 164px;
+  color: rgba(0, 0, 0, 1);
+  width: 24px;
+  height: auto;
+  position: absolute;
+  font-size: 13px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Noto Sans Tamil UI;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.main-text28 {
+  top: 107px;
+  color: rgb(0, 0, 0);
+  right: 32px;
+  width: 58px;
+  height: auto;
+  position: absolute;
+  font-size: 13px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Noto Sans Tamil UI;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.main-text29 {
+  top: 45px;
+  left: 162px;
+  color: rgba(0, 0, 0, 1);
+  width: 25px;
+  height: auto;
+  position: absolute;
+  font-size: 13px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Noto Sans Tamil UI;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.main-text31 {
+  top: 45px;
+  left: 265px;
+  color: rgba(0, 0, 0, 1);
+  width: 31px;
+  height: auto;
+  position: absolute;
+  font-size: 13px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Noto Sans Tamil UI;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.main-text33 {
+  top: 139px;
+  left: 48px;
+  color: rgba(0, 0, 0, 1);
+  width: 33px;
+  height: auto;
+  position: absolute;
+  font-size: 13px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Noto Sans Tamil UI;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.main-text35 {
+  top: 139px;
+  left: 162px;
+  color: rgba(0, 0, 0, 1);
+  width: 28px;
+  height: auto;
+  position: absolute;
+  font-size: 13px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Noto Sans Tamil UI;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.main-text37 {
+  top: 139px;
+  left: 267px;
+  color: rgba(0, 0, 0, 1);
+  width: 22px;
+  height: auto;
+  position: absolute;
+  font-size: 13px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Noto Sans Tamil UI;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.main-rectangle1 {
+  left: 0px;
+  right: 0px;
+  width: 354px;
+  bottom: 54px;
+  height: 69px;
+  margin: auto;
+  display: none;
+  position: absolute;
+  border-radius: 33px;
+}
+.main-container1 {
+  left: 0px;
+  right: 0px;
+  width: 283.99310302734375px;
+  bottom: 75px;
+  height: 45.00000762939453px;
+  margin: auto;
+  display: none;
+  position: absolute;
+  align-items: flex-start;
+}
+.main-streamlinemailchatbubbletypingovalmessagesmessageb {
+  top: 3.00347900390625px;
+  left: 61.99652099609375px;
+  width: 39px;
+  height: 39px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  text-decoration: none;
+}
+.main-group1 {
+  top: 5.73529052734375px;
+  left: 3.441162109375px;
+  width: 31.558837890625px;
+  height: 29.577743530273438px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.main-vector04 {
+  top: 13.651275634765625px;
+  left: 6.067211151123047px;
+  width: 2px;
+  height: 2px;
+  position: absolute;
+}
+.main-vector05 {
+  top: 13.651275634765625px;
+  left: 13.954618453979492px;
+  width: 2px;
+  height: 2px;
+  position: absolute;
+}
+.main-vector06 {
+  top: 13.651275634765625px;
+  left: 21.841960906982422px;
+  width: 2px;
+  height: 2px;
+  position: absolute;
+}
+.main-vector07 {
+  top: 0px;
+  left: 0px;
+  right: mixed;
+  width: 32px;
+  height: 30px;
+  position: absolute;
+}
+.main-basilbookcheckoutline {
+  top: 0px;
+  left: 0px;
+  width: 42px;
+  height: 45px;
+  position: absolute;
+  text-decoration: none;
+}
+.main-tablermoodplus {
+  top: 3.9930419921875px;
+  right: 61.006988525390625px;
+  width: 38px;
+  height: 38px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  text-decoration: none;
+}
+.main-group2 {
+  top: 4.7498087882995605px;
+  left: 4.750794887542725px;
+  width: 30.08254051208496px;
+  height: 30.08352279663086px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.main-vector08 {
+  top: 0px;
+  left: 0px;
+  right: mixed;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+}
+.main-vector09 {
+  top: 19.00019073486328px;
+  left: 10.290871620178223px;
+  width: 8px;
+  height: 2px;
+  position: absolute;
+}
+.main-rimenu4line {
+  top: 5px;
+  right: 0px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  text-decoration: none;
+}
+.main-materialsymbolshome {
+  width: 42px;
+  height: 42px;
+}
+.main-notifications1 {
+  top: 318px;
+  left: 272px;
+  width: 574px;
+  height: 355px;
+  display: flex;
+  position: absolute;
+  flex-shrink: 1;
+  flex-direction: column;
+  justify-content: center;
+}
+.main-rectangle102 {
+  top: 4px;
+  flex: 1;
+  left: 0px;
+  right: 0px;
+  width: 556px;
+  height: 75px;
+  margin: auto;
+  position: absolute;
+  border-radius: 9px;
+}
+.main-rectangle91 {
+  top: 40px;
+  flex: 1;
+  left: 21px;
+  width: 531px;
+  height: 293px;
+  position: absolute;
+  border-radius: 9px;
+}
+.main-tablermessagecircle3 {
+  top: 108px;
+  flex: 1;
+  left: 42px;
+  width: 31px;
+  height: 31px;
+  position: absolute;
+}
+.main-text39 {
+  top: 17px;
+  left: 64px;
+  color: rgb(0, 0, 0);
+  width: 228px;
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Noto Sans Tamil UI;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.main-text40 {
+  top: 81px;
+  left: 76px;
+  color: rgba(0, 0, 0, 1);
+  width: 228px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Noto Sans Tamil UI;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.main-text42 {
+  top: 210px;
+  flex: 1;
+  left: 75px;
+  color: rgba(0, 0, 0, 1);
+  width: 228px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Noto Sans Tamil UI;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.main-text44 {
+  flex: 1;
+  left: 77px;
+  color: rgba(0, 0, 0, 1);
+  width: 269px;
+  bottom: 93px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Noto Sans Tamil UI;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.main-text46 {
+  top: 114px;
+  flex: 1;
+  left: 77px;
+  color: rgba(0, 0, 0, 1);
+  width: 244px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Noto Sans Tamil UI;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.main-text48 {
+  top: 145px;
+  flex: 1;
+  left: 76px;
+  color: rgba(0, 0, 0, 1);
+  width: 244px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Noto Sans Tamil UI;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.main-text50 {
+  top: 174px;
+  flex: 1;
+  left: 75px;
+  color: rgba(0, 0, 0, 1);
+  width: 277px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Noto Sans Tamil UI;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.main-line11 {
+  top: 80px;
+  flex: 1;
+  right: -144px;
+  width: 158px;
+  height: 0px;
+  position: absolute;
+}
+.main-line21 {
+  top: 95px;
+  flex: 1;
+  left: 37px;
+  width: 265px;
+  height: 0px;
+  position: absolute;
+}
+.main-line31 {
+  top: 123px;
+  flex: 1;
+  left: 37px;
+  width: 265px;
+  height: 0px;
+  position: absolute;
+}
+.main-line41 {
+  top: 151px;
+  flex: 1;
+  left: 37px;
+  width: 265px;
+  height: 0px;
+  position: absolute;
+}
+.main-line51 {
+  top: 179px;
+  flex: 1;
+  left: 37px;
+  width: 265px;
+  height: 0px;
+  position: absolute;
+}
+.main-line61 {
+  flex: 1;
+  left: 37px;
+  width: 265px;
+  bottom: 20px;
+  height: 0px;
+  position: absolute;
+}
+.main-line72 {
+  flex: 1;
+  left: 37px;
+  width: 265px;
+  bottom: -7px;
+  height: 0px;
+  position: absolute;
+}
+.main-tablermessagecircle4 {
+  top: 139px;
+  flex: 1;
+  left: 42px;
+  width: 31px;
+  height: 31px;
+  position: absolute;
+}
+.main-tablermessagecircle5 {
+  flex: 1;
+  left: 44px;
+  width: 31px;
+  bottom: 89px;
+  height: 31px;
+  position: absolute;
+}
+.main-carbonfaceadd2 {
+  top: 79px;
+  flex: 1;
+  left: 43px;
+  width: 27px;
+  height: 27px;
+  position: absolute;
+}
+.main-carbonfaceadd3 {
+  flex: 1;
+  left: 44px;
+  width: 27px;
+  bottom: 123px;
+  height: 27px;
+  position: absolute;
+}
+.main-mditargetarrow1 {
+  top: 18px;
+  flex: 1;
+  left: 30px;
+  width: 34px;
+  height: 34px;
+  position: absolute;
+}
+.main-mdiclockoutline {
+  left: 43px;
+  width: 28px;
+  bottom: 156px;
+  height: 28px;
+  position: absolute;
+}
+.main-friends1 {
+  top: 310px;
+  right: 206px;
+  width: 526px;
+  height: 323px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  flex-shrink: 1;
+  flex-direction: column;
+  justify-content: center;
+}
+.main-rectangle103 {
+  top: -8px;
+  left: 0px;
+  right: 0px;
+  width: 569px;
+  height: 80px;
+  margin: auto;
+  position: absolute;
+  border-radius: 9px;
+}
+.main-text52 {
+  top: 10px;
+  left: 63px;
+  color: rgb(0, 0, 0);
+  width: 228px;
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Noto Sans Tamil UI;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.main-rectangle131 {
+  top: 35px;
+  left: 8px;
+  width: 523px;
+  height: 310px;
+  position: absolute;
+  border-radius: 9px;
+}
+.main-line73 {
+  top: 68px;
+  left: 326px;
+  width: 51px;
+  height: 0px;
+  position: absolute;
+}
+.main-lauserfriends1 {
+  top: 8px;
+  left: 17px;
+  width: 47px;
+  height: 42px;
+  position: absolute;
+}
+.main-materialsymbolsface1 {
+  top: 80px;
+  left: 86px;
+  width: 59px;
+  height: 59px;
+  position: absolute;
+}
+.main-materialsymbolsface21 {
+  top: 82px;
+  left: 307px;
+  width: 54px;
+  height: 54px;
+  position: absolute;
+}
+.main-materialsymbolsface31 {
+  top: 84px;
+  left: 197px;
+  width: 52px;
+  height: 52px;
+  position: absolute;
+}
+.main-materialsymbolsface3outline1 {
+  top: 197px;
+  left: 90px;
+  width: 52px;
+  height: 52px;
+  position: absolute;
+}
+.main-materialsymbolsface61 {
+  top: 82px;
+  right: 50px;
+  width: 61px;
+  height: 61px;
+  position: absolute;
+}
+.main-icroundface41 {
+  top: 197px;
+  left: 195px;
+  width: 54px;
+  height: 54px;
+  position: absolute;
+}
+.main-text53 {
+  top: 65px;
+  left: 103px;
+  color: rgb(0, 0, 0);
+  width: 29px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Noto Sans Tamil UI;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.main-text54 {
+  top: 138px;
+  left: 103px;
+  color: rgb(0, 0, 0);
+  width: 24px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Noto Sans Tamil UI;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.main-text55 {
+  top: 248px;
+  left: 94px;
+  color: rgb(0, 0, 0);
+  width: 43px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Noto Sans Tamil UI;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.main-text56 {
+  top: 136px;
+  left: 201px;
+  color: rgb(0, 0, 0);
+  width: 43px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Noto Sans Tamil UI;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.main-text57 {
+  top: 249px;
+  left: 201px;
+  color: rgb(0, 0, 0);
+  width: 43px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Noto Sans Tamil UI;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.main-text58 {
+  top: 137px;
+  left: 319px;
+  color: rgb(0, 0, 0);
+  width: 24px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Noto Sans Tamil UI;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.main-text59 {
+  top: 136px;
+  color: rgb(0, 0, 0);
+  right: 52px;
+  width: 58px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Noto Sans Tamil UI;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.main-text60 {
+  top: 65px;
+  left: 321px;
+  color: rgb(0, 0, 0);
+  width: 25px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Noto Sans Tamil UI;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.main-text61 {
+  top: 65px;
+  color: rgb(0, 0, 0);
+  right: 65px;
+  width: 31px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Noto Sans Tamil UI;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.main-text62 {
+  top: 178px;
+  left: 98px;
+  color: rgb(0, 0, 0);
+  width: 33px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Noto Sans Tamil UI;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.main-text63 {
+  top: 65px;
+  left: 210px;
+  color: rgb(0, 0, 0);
+  width: 28px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Noto Sans Tamil UI;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.main-text64 {
+  top: 180px;
+  left: 212px;
+  color: rgb(0, 0, 0);
+  width: 22px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Noto Sans Tamil UI;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.main-navbar-interactive {
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+}
+.main-desktop-menu {
+  display: flex;
+}
+.main-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.main-navlink4 {
+  text-decoration: none;
+}
+.main-navlink5 {
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.main-navlink6 {
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.main-navlink7 {
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.main-navlink8 {
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.main-btn-group {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.main-burger-menu {
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.main-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.main-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: 32px;
+  z-index: 100;
+  position: fixed;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.main-nav1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.main-container2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.main-image {
+  height: 2rem;
+}
+.main-menu-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-icon02 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.main-nav2 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.main-text65 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.main-text66 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.main-text67 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.main-text68 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.main-text69 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.main-container3 {
+  flex: 0 0 auto;
+  width: auto;
+  display: flex;
+  margin-top: var(--dl-space-space-unit);
+  align-items: center;
+  flex-direction: row;
+}
+.main-login {
+  margin-right: var(--dl-space-space-twounits);
+}
+.main-icon-group {
+  display: flex;
+}
+.main-icon04 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.main-icon06 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.main-icon08 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+@media(max-width: 1600px) {
+  .main-unilifeease1 {
+    display: none;
+  }
+  .main-unilifeease11 {
+    top: 70px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+  .main-group3 {
+    display: none;
+  }
+  .main-notifications1 {
+    top: 335px;
+    left: 194px;
+  }
+  .main-friends1 {
+    top: 334px;
+    left: 878px;
+  }
+  .main-materialsymbolsface1 {
+    top: 81px;
+    left: 56px;
+  }
+  .main-materialsymbolsface21 {
+    top: 83px;
+    left: 277px;
+  }
+  .main-materialsymbolsface31 {
+    top: 85px;
+    left: 167px;
+  }
+  .main-materialsymbolsface3outline1 {
+    top: 198px;
+    left: 60px;
+  }
+  .main-materialsymbolsface61 {
+    top: 83px;
+    right: 80px;
+  }
+  .main-icroundface41 {
+    top: 198px;
+    left: 165px;
+  }
+  .main-text53 {
+    top: 66px;
+    left: 73px;
+  }
+  .main-text54 {
+    top: 139px;
+    left: 73px;
+  }
+  .main-text55 {
+    top: 249px;
+    left: 64px;
+  }
+  .main-text56 {
+    top: 137px;
+    left: 171px;
+  }
+  .main-text57 {
+    top: 250px;
+    left: 171px;
+  }
+  .main-text58 {
+    top: 138px;
+    left: 289px;
+  }
+  .main-text59 {
+    top: 137px;
+    right: 82px;
+  }
+  .main-text60 {
+    top: 66px;
+    left: 291px;
+  }
+  .main-text61 {
+    top: 66px;
+    left: 400px;
+  }
+  .main-text62 {
+    top: 179px;
+    left: 68px;
+  }
+  .main-text63 {
+    top: 66px;
+    left: 180px;
+  }
+  .main-text64 {
+    top: 181px;
+    left: 182px;
+  }
+}
+@media(max-width: 1200px) {
+  .main-unilifeease11 {
+    top: -6px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+  .main-group3 {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 962px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .main-notifications {
+    top: 180px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+  .main-friends {
+    top: 508px;
+    left: 0px;
+    right: 0px;
+    height: 283px;
+    margin: auto;
+    position: absolute;
+    flex-direction: column;
+  }
+  .main-notifications1 {
+    display: none;
+  }
+  .main-friends1 {
+    display: none;
+  }
+}
+@media(max-width: 991px) {
+  .main-home {
+    height: 1008px;
+  }
+  .main-unilifeease1 {
+    left: 0px;
+    right: 0px;
+    width: 382px;
+    height: 98px;
+    margin: auto;
+    display: flex;
+    padding-bottom: 0px;
+  }
+  .main-unilifeease11 {
+    top: 31px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    display: none;
+  }
+  .main-notifications {
+    top: 190px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+  .main-friends {
+    top: 539px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+  .main-rectangle1 {
+    left: -2px;
+    width: 359px;
+    bottom: 65px;
+    height: 61px;
+    margin: auto;
+    display: flex;
+  }
+  .main-container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .main-streamlinemailchatbubbletypingovalmessagesmessageb {
+    top: 3px;
+    left: 48px;
+  }
+  .main-basilbookcheckoutline {
+    top: 5px;
+    left: -14px;
+    width: 38px;
+    bottom: 9px;
+    height: 38px;
+  }
+  .main-notifications1 {
+    top: 0px;
+    left: 0px;
+    margin: auto;
+  }
+  .main-friends1 {
+    top: 358px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+  .main-navbar-interactive {
+    display: none;
+  }
+}
+@media(max-width: 767px) {
+  .main-notifications {
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+  .main-friends {
+    top: 522px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+  .main-rectangle1 {
+    right: 0px;
+    width: 357px;
+    height: 60px;
+    margin: auto;
+    display: flex;
+  }
+  .main-container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .main-tablermoodplus {
+    left: 193px;
+    bottom: 0px;
+  }
+  .main-rimenu4line {
+    right: -14px;
+    bottom: -1px;
+  }
+  .main-friends1 {
+    top: 354px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+  .main-navbar-interactive {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .main-desktop-menu {
+    display: none;
+  }
+  .main-navlink5 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .main-navlink6 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .main-navlink7 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .main-navlink8 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .main-btn-group {
+    display: none;
+  }
+  .main-burger-menu {
+    display: flex;
+  }
+}
+@media(max-width: 479px) {
+  .main-unilifeease1 {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+  .main-unilifeease11 {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+  .main-group3 {
+    left: 0px;
+    right: 0px;
+    width: 420px;
+    height: 962px;
+    margin: auto;
+  }
+  .main-friends {
+    top: 521px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+  .main-rectangle1 {
+    left: -5px;
+    width: 370px;
+    bottom: 61px;
+    height: 66px;
+    margin: auto;
+    display: flex;
+  }
+  .main-container1 {
+    align-items: center;
+    justify-content: center;
+  }
+  .main-friends1 {
+    top: 309px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+  .main-navbar-interactive {
+    padding: var(--dl-space-space-unit);
+  }
+  .main-mobile-menu {
+    padding: 16px;
+  }
+}

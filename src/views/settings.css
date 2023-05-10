@@ -1,0 +1,761 @@
+.settings-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.settings-settings {
+  width: 100%;
+  height: 1037px;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-image: linear-gradient(180deg, rgba(215, 137, 215, 1) 0%, rgba(157, 101, 201, 1) 50%, rgba(248, 217, 248, 1) 100%);
+}
+.settings-group7 {
+  top: 275px;
+  left: 0px;
+  right: 0px;
+  width: 345px;
+  height: 198px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.settings-notifications {
+  top: 0px;
+  left: 0px;
+  width: 345px;
+  height: 190px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.settings-rectangle10 {
+  top: -67px;
+  left: -136px;
+  width: 640px;
+  height: 96px;
+  margin: auto;
+  position: absolute;
+  border-radius: 9px;
+}
+.settings-rectangle9 {
+  top: -14px;
+  left: -60px;
+  width: 507px;
+  height: 328px;
+  position: absolute;
+  border-radius: 9px;
+}
+.settings-text {
+  top: -45px;
+  left: -46px;
+  color: rgb(0, 0, 0);
+  width: 228px;
+  height: auto;
+  position: absolute;
+  font-size: 28px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Noto Sans Tamil UI;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.settings-text01 {
+  top: 24px;
+  left: 19px;
+  color: rgb(0, 0, 0);
+  width: 228px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Noto Sans Tamil UI;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.settings-text02 {
+  left: 18px;
+  color: rgb(0, 0, 0);
+  width: 228px;
+  bottom: -7px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Noto Sans Tamil UI;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.settings-text03 {
+  left: 22px;
+  color: rgb(0, 0, 0);
+  width: 228px;
+  bottom: 18px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Noto Sans Tamil UI;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.settings-text04 {
+  top: 63px;
+  left: 19px;
+  color: rgb(0, 0, 0);
+  width: 244px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Noto Sans Tamil UI;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.settings-text07 {
+  top: 105px;
+  left: 19px;
+  color: rgb(0, 0, 0);
+  width: 244px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Noto Sans Tamil UI;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.settings-materialsymbolssettings {
+  top: -51px;
+  left: -113px;
+  width: 65px;
+  height: 51px;
+  position: absolute;
+}
+.settings-line2 {
+  top: 63px;
+  left: 32px;
+  width: 265px;
+  height: 0px;
+  position: absolute;
+}
+.settings-line3 {
+  top: 91px;
+  left: 32px;
+  width: 265px;
+  height: 0px;
+  position: absolute;
+}
+.settings-line4 {
+  top: 119px;
+  left: 32px;
+  width: 265px;
+  height: 0px;
+  position: absolute;
+}
+.settings-line5 {
+  top: 147px;
+  left: 32px;
+  width: 265px;
+  height: 0px;
+  position: absolute;
+}
+.settings-line6 {
+  top: 175px;
+  left: 32px;
+  width: 265px;
+  height: 0px;
+  position: absolute;
+}
+.settings-materialsymbolsadminpanelsettingsrounded {
+  top: 46px;
+  left: 0px;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.settings-materialsymbolsdisplaysettings {
+  top: 58px;
+  left: -26px;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+}
+.settings-vector {
+  top: 135px;
+  left: -19px;
+  width: 25px;
+  height: 29px;
+  position: absolute;
+}
+.settings-materialsymbolssettingsaccountbox {
+  top: 10px;
+  left: -28px;
+  width: 38px;
+  height: 36px;
+  position: absolute;
+}
+.settings-tablermessagecircle {
+  flex: 1;
+  left: -23px;
+  width: 35px;
+  bottom: 0px;
+  height: 31px;
+  position: absolute;
+}
+.settings-vector1 {
+  top: 99px;
+  left: -20px;
+  width: 26px;
+  height: 29px;
+  position: absolute;
+}
+.settings-rectangle1 {
+  left: 0px;
+  right: 0px;
+  width: 354px;
+  bottom: 54px;
+  height: 69px;
+  margin: auto;
+  display: none;
+  position: absolute;
+  border-radius: 33px;
+}
+.settings-container1 {
+  left: 0px;
+  right: 0px;
+  width: 283.99310302734375px;
+  bottom: 75px;
+  height: 45.00000762939453px;
+  margin: auto;
+  display: none;
+  position: absolute;
+  align-items: flex-start;
+}
+.settings-streamlinemailchatbubbletypingovalmessagesmessageb {
+  top: 3.00347900390625px;
+  left: 61.99652099609375px;
+  width: 39px;
+  height: 39px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  text-decoration: none;
+}
+.settings-group {
+  top: 5.73529052734375px;
+  left: 3.441162109375px;
+  width: 31.558837890625px;
+  height: 29.577743530273438px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.settings-vector2 {
+  top: 13.651275634765625px;
+  left: 6.067211151123047px;
+  width: 2px;
+  height: 2px;
+  position: absolute;
+}
+.settings-vector3 {
+  top: 13.651275634765625px;
+  left: 13.954618453979492px;
+  width: 2px;
+  height: 2px;
+  position: absolute;
+}
+.settings-vector4 {
+  top: 13.651275634765625px;
+  left: 21.841960906982422px;
+  width: 2px;
+  height: 2px;
+  position: absolute;
+}
+.settings-vector5 {
+  top: 0px;
+  left: 0px;
+  right: mixed;
+  width: 32px;
+  height: 30px;
+  position: absolute;
+}
+.settings-basilbookcheckoutline {
+  top: 0px;
+  left: 0px;
+  width: 42px;
+  height: 45px;
+  position: absolute;
+  text-decoration: none;
+}
+.settings-tablermoodplus {
+  top: 3.9930419921875px;
+  right: 61.006988525390625px;
+  width: 38px;
+  height: 38px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  text-decoration: none;
+}
+.settings-group1 {
+  top: 4.7498087882995605px;
+  left: 4.750794887542725px;
+  width: 30.08254051208496px;
+  height: 30.08352279663086px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.settings-vector6 {
+  top: 0px;
+  left: 0px;
+  right: mixed;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+}
+.settings-vector7 {
+  top: 19.00019073486328px;
+  left: 10.290871620178223px;
+  width: 8px;
+  height: 2px;
+  position: absolute;
+}
+.settings-rimenu4line {
+  top: 5px;
+  right: 0px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  text-decoration: none;
+}
+.settings-materialsymbolshome {
+  width: 42px;
+  height: 42px;
+}
+.settings-unilifeease1 {
+  top: -4px;
+  left: 697px;
+  width: 553px;
+  height: 143px;
+  margin: auto;
+  position: absolute;
+}
+.settings-navbar-interactive {
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+}
+.settings-desktop-menu {
+  display: flex;
+}
+.settings-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.settings-navlink4 {
+  text-decoration: none;
+}
+.settings-navlink5 {
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.settings-navlink6 {
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.settings-navlink7 {
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.settings-navlink8 {
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.settings-btn-group {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.settings-burger-menu {
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.settings-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.settings-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: 32px;
+  z-index: 100;
+  position: fixed;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.settings-nav1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.settings-container2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.settings-image {
+  height: 2rem;
+}
+.settings-menu-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.settings-icon02 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.settings-nav2 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.settings-text08 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.settings-text09 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.settings-text10 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.settings-text11 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.settings-text12 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.settings-container3 {
+  flex: 0 0 auto;
+  width: auto;
+  display: flex;
+  margin-top: var(--dl-space-space-unit);
+  align-items: center;
+  flex-direction: row;
+}
+.settings-login {
+  margin-right: var(--dl-space-space-twounits);
+}
+.settings-icon-group {
+  display: flex;
+}
+.settings-icon04 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.settings-icon06 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.settings-icon08 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.settings-unilifeease11 {
+  top: 20px;
+  left: 0px;
+  right: 0px;
+  width: 231px;
+  height: 60px;
+  margin: auto;
+  display: none;
+  position: absolute;
+}
+@media(max-width: 1600px) {
+  .settings-unilifeease1 {
+    top: -4px;
+    left: 559px;
+    margin: auto;
+  }
+  .settings-unilifeease11 {
+    display: none;
+  }
+}
+@media(max-width: 1200px) {
+  .settings-unilifeease1 {
+    top: -6px;
+    left: 342px;
+    margin: auto;
+  }
+}
+@media(max-width: 991px) {
+  .settings-rectangle1 {
+    left: -2px;
+    width: 359px;
+    bottom: 65px;
+    height: 61px;
+    margin: auto;
+    display: flex;
+  }
+  .settings-container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .settings-streamlinemailchatbubbletypingovalmessagesmessageb {
+    top: 3px;
+    left: 48px;
+  }
+  .settings-basilbookcheckoutline {
+    top: 5px;
+    left: -14px;
+    width: 38px;
+    bottom: 9px;
+    height: 38px;
+  }
+  .settings-unilifeease1 {
+    display: none;
+  }
+  .settings-navbar-interactive {
+    display: none;
+  }
+  .settings-unilifeease11 {
+    left: 0px;
+    right: 0px;
+    width: 382px;
+    height: 98px;
+    margin: auto;
+    display: flex;
+    padding-bottom: 0px;
+  }
+}
+@media(max-width: 767px) {
+  .settings-tablermessagecircle {
+    left: -20px;
+    width: 35px;
+    bottom: -6px;
+    height: 43px;
+  }
+  .settings-rectangle1 {
+    right: 0px;
+    width: 357px;
+    height: 60px;
+    margin: auto;
+    display: flex;
+  }
+  .settings-container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .settings-tablermoodplus {
+    left: 193px;
+    bottom: 0px;
+  }
+  .settings-rimenu4line {
+    right: -14px;
+    bottom: -1px;
+  }
+  .settings-navbar-interactive {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .settings-desktop-menu {
+    display: none;
+  }
+  .settings-navlink5 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .settings-navlink6 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .settings-navlink7 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .settings-navlink8 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .settings-btn-group {
+    display: none;
+  }
+  .settings-burger-menu {
+    display: flex;
+  }
+}
+@media(max-width: 479px) {
+  .settings-group7 {
+    width: 446px;
+    height: 465px;
+    padding-bottom: 0px;
+  }
+  .settings-rectangle10 {
+    top: -59px;
+    left: -18px;
+    width: 479px;
+    height: 78px;
+  }
+  .settings-rectangle9 {
+    top: -26px;
+    left: -3px;
+    width: 457px;
+    height: 520px;
+    position: absolute;
+  }
+  .settings-text {
+    top: -46px;
+    left: 36px;
+  }
+  .settings-text01 {
+    top: 17px;
+    left: 71px;
+  }
+  .settings-text02 {
+    left: 71px;
+    color: rgb(0, 0, 0);
+    bottom: 35px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+  }
+  .settings-text03 {
+    left: 69px;
+    bottom: -2px;
+  }
+  .settings-text04 {
+    top: 51px;
+    left: 69px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+  }
+  .settings-text05 {
+    font-size: 20px;
+  }
+  .settings-text07 {
+    top: 96px;
+    left: 70px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+  }
+  .settings-materialsymbolssettings {
+    top: -47px;
+    left: -8px;
+    width: 45px;
+    height: 35px;
+    padding-bottom: 0px;
+  }
+  .settings-materialsymbolsdisplaysettings {
+    top: 46px;
+    left: 26px;
+  }
+  .settings-vector {
+    top: 128px;
+    left: 34px;
+  }
+  .settings-materialsymbolssettingsaccountbox {
+    top: 5px;
+    left: 23px;
+  }
+  .settings-tablermessagecircle {
+    top: 161px;
+    left: 29px;
+    width: 38px;
+    height: 38px;
+  }
+  .settings-vector1 {
+    top: 88px;
+    left: 33px;
+  }
+  .settings-rectangle1 {
+    left: -5px;
+    width: 370px;
+    bottom: 61px;
+    height: 66px;
+    margin: auto;
+    display: flex;
+  }
+  .settings-container1 {
+    align-items: center;
+    justify-content: center;
+  }
+  .settings-unilifeease1 {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+  .settings-navbar-interactive {
+    padding: var(--dl-space-space-unit);
+  }
+  .settings-mobile-menu {
+    padding: 16px;
+  }
+  .settings-unilifeease11 {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+}
