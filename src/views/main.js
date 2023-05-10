@@ -298,11 +298,13 @@ const Main = (props) => {
               className="main-rimenu4line"
             />
           </Link>
-          <img
-            alt="materialsymbolshome7118"
-            src="/playground_assets/materialsymbolshome7118-s8.svg"
-            className="main-materialsymbolshome"
-          />
+          <Link to="/main">
+            <img
+              alt="materialsymbolshome7118"
+              src="/playground_assets/materialsymbolshome7118-s8.svg"
+              className="main-materialsymbolshome"
+            />
+          </Link>
         </div>
         <div className="main-notifications1">
           <img
@@ -481,19 +483,19 @@ const Main = (props) => {
               data-role="Nav"
               className="main-nav"
             >
-              <Link to="/main" className="main-navlink4">
+              <Link to="/main" className="main-navlink05">
                 Home
               </Link>
-              <Link to="/appointments" className="main-navlink5">
+              <Link to="/appointments" className="main-navlink06">
                 Appointments
               </Link>
-              <Link to="/messenger" className="main-navlink6">
+              <Link to="/messenger" className="main-navlink07">
                 Messenger
               </Link>
-              <Link to="/mood" className="main-navlink7">
+              <Link to="/mood" className="main-navlink08">
                 Mood
               </Link>
-              <Link to="/settings" className="main-navlink8">
+              <Link to="/settings" className="main-navlink09">
                 Settings
               </Link>
             </nav>

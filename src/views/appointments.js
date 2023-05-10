@@ -492,8 +492,8 @@ const Appointments = (props) => {
             />
           </Link>
           <img
-            alt="materialsymbolshome7148"
-            src="/playground_assets/materialsymbolshome7148-mrqf.svg"
+            alt="materialsymbolshome7118"
+            src="/playground_assets/materialsymbolshome7118-s8.svg"
             className="appointments-materialsymbolshome1"
           />
         </div>

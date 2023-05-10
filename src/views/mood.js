@@ -32,12 +32,19 @@ const Mood = (props) => {
             src="/playground_assets/rectangle295777-unr-200h.png"
             className="mood-rectangle29"
           />
-          <img
-            alt="Rectangle315788"
-            src="/playground_assets/rectangle315788-c2ru-200h.png"
-            className="mood-rectangle31"
-          />
-          <a href="tel:08001380990" className="mood-link">
+          <a
+            href="https://my.hull.ac.uk/"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="mood-link"
+          >
+            <img
+              alt="Rectangle315788"
+              src="/playground_assets/rectangle315788-c2ru-200h.png"
+              className="mood-rectangle31"
+            />
+          </a>
+          <a href="tel:08001380990" className="mood-link1">
             <img
               alt="Rectangle305782"
               src="/playground_assets/rectangle305782-10x-200h.png"
@@ -118,7 +125,14 @@ const Mood = (props) => {
           <span className="mood-text04">
             <span>Add custom feeling</span>
           </span>
-          <span className="mood-text06">Contact Support through MyPortal</span>
+          <a
+            href="https://my.hull.ac.uk/"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="mood-text06"
+          >
+            Contact Support through MyPortal
+          </a>
           <span className="mood-text07">
             <span>
               24h Mental Health Advice and Support Line
@@ -180,16 +194,24 @@ const Mood = (props) => {
             src="/playground_assets/rectangle295777-unr-200h.png"
             className="mood-rectangle291"
           />
-          <img
-            alt="Rectangle315788"
-            src="/playground_assets/rectangle315788-c2ru-200h.png"
-            className="mood-rectangle311"
-          />
-          <img
-            alt="Rectangle305782"
-            src="/playground_assets/rectangle305782-10x-200h.png"
-            className="mood-rectangle301"
-          />
+          <a
+            href="https://my.hull.ac.uk/"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <img
+              alt="Rectangle315788"
+              src="/playground_assets/rectangle315788-c2ru-200h.png"
+              className="mood-rectangle311"
+            />
+          </a>
+          <a href="tel:08001380990">
+            <img
+              alt="Rectangle305782"
+              src="/playground_assets/rectangle305782-10x-200h.png"
+              className="mood-rectangle301"
+            />
+          </a>
           <img
             alt="Rectangle245764"
             src="/playground_assets/rectangle245764-f0wr-200h.png"
@@ -264,7 +286,14 @@ const Mood = (props) => {
           <span className="mood-text26">
             <span>Add custom feeling</span>
           </span>
-          <span className="mood-text28">Contact Support through MyPortal</span>
+          <a
+            href="https://my.hull.ac.uk/"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="mood-text28"
+          >
+            Contact Support through MyPortal
+          </a>
           <span className="mood-text29">
             <span>
               24h Mental Health Advice and Support Line
@@ -293,9 +322,9 @@ const Mood = (props) => {
           <span className="mood-text41">
             <span>Sick</span>
           </span>
-          <span className="mood-text43">
-            <span>08001380990</span>
-          </span>
+          <a href="tel:08001380990" className="mood-text43">
+            08001380990
+          </a>
           <img
             alt="materialsymbolsphoneintalkrounded5784"
             src="/playground_assets/materialsymbolsphoneintalkrounded5784-sl4m.svg"
@@ -369,11 +398,13 @@ const Mood = (props) => {
               className="mood-rimenu4line"
             />
           </Link>
-          <img
-            alt="materialsymbolshome7118"
-            src="/playground_assets/materialsymbolshome7118-s8.svg"
-            className="mood-materialsymbolshome"
-          />
+          <Link to="/main">
+            <img
+              alt="materialsymbolshome7118"
+              src="/playground_assets/materialsymbolshome7118-s8.svg"
+              className="mood-materialsymbolshome"
+            />
+          </Link>
         </div>
         <header data-thq="thq-navbar" className="mood-navbar-interactive">
           <div
@@ -386,19 +417,19 @@ const Mood = (props) => {
               data-role="Nav"
               className="mood-nav"
             >
-              <Link to="/main" className="mood-navlink4">
+              <Link to="/main" className="mood-navlink05">
                 Home
               </Link>
-              <Link to="/appointments" className="mood-navlink5">
+              <Link to="/appointments" className="mood-navlink06">
                 Appointments
               </Link>
-              <Link to="/messenger" className="mood-navlink6">
+              <Link to="/messenger" className="mood-navlink07">
                 Messenger
               </Link>
-              <Link to="/mood" className="mood-navlink7">
+              <Link to="/mood" className="mood-navlink08">
                 Mood
               </Link>
-              <Link to="/settings" className="mood-navlink8">
+              <Link to="/settings" className="mood-navlink09">
                 Settings
               </Link>
             </nav>
@@ -432,11 +463,11 @@ const Mood = (props) => {
                 data-role="Nav"
                 className="mood-nav2"
               >
-                <span className="mood-text45">About</span>
-                <span className="mood-text46">Features</span>
-                <span className="mood-text47">Pricing</span>
-                <span className="mood-text48">Team</span>
-                <span className="mood-text49">Blog</span>
+                <span className="mood-text44">About</span>
+                <span className="mood-text45">Features</span>
+                <span className="mood-text46">Pricing</span>
+                <span className="mood-text47">Team</span>
+                <span className="mood-text48">Blog</span>
               </nav>
               <div className="mood-container3">
                 <button className="mood-login button">Login</button>

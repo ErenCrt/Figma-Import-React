@@ -368,6 +368,7 @@
 .settings-materialsymbolshome {
   width: 42px;
   height: 42px;
+  text-decoration: none;
 }
 .settings-unilifeease1 {
   top: -4px;
@@ -397,22 +398,22 @@
   align-items: center;
   flex-direction: row;
 }
-.settings-navlink4 {
+.settings-navlink05 {
   text-decoration: none;
 }
-.settings-navlink5 {
+.settings-navlink06 {
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.settings-navlink6 {
+.settings-navlink07 {
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.settings-navlink7 {
+.settings-navlink08 {
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.settings-navlink8 {
+.settings-navlink09 {
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
@@ -619,16 +620,16 @@
   .settings-desktop-menu {
     display: none;
   }
-  .settings-navlink5 {
+  .settings-navlink06 {
     margin-left: var(--dl-space-space-unit);
   }
-  .settings-navlink6 {
+  .settings-navlink07 {
     margin-left: var(--dl-space-space-unit);
   }
-  .settings-navlink7 {
+  .settings-navlink08 {
     margin-left: var(--dl-space-space-unit);
   }
-  .settings-navlink8 {
+  .settings-navlink09 {
     margin-left: var(--dl-space-space-unit);
   }
   .settings-btn-group {

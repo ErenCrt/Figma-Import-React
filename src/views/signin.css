@@ -15,14 +15,6 @@
   flex-shrink: 0;
   background-image: linear-gradient(180deg, rgba(215, 137, 215, 1) 0%, rgba(157, 101, 201, 1) 50%, rgba(248, 217, 248, 1) 100%);
 }
-.signin-unilifeease1c {
-  top: 303px;
-  left: 807px;
-  width: 946px;
-  height: 246px;
-  margin: auto;
-  position: absolute;
-}
 .signin-unilifeease1 {
   top: 62px;
   left: 0px;
@@ -31,6 +23,14 @@
   height: 77px;
   margin: auto;
   display: none;
+  position: absolute;
+}
+.signin-unilifeease11 {
+  top: 303px;
+  left: 807px;
+  width: 827px;
+  height: 221px;
+  margin: auto;
   position: absolute;
 }
 .signin-group2 {
@@ -472,7 +472,7 @@
   padding-bottom: 0px;
 }
 @media(max-width: 1600px) {
-  .signin-unilifeease1c {
+  .signin-unilifeease11 {
     top: 0px;
     right: 72px;
     width: 613px;
@@ -524,11 +524,11 @@
   }
 }
 @media(max-width: 1200px) {
-  .signin-unilifeease1c {
-    display: none;
-  }
   .signin-unilifeease1 {
     display: flex;
+  }
+  .signin-unilifeease11 {
+    display: none;
   }
   .signin-group2 {
     display: flex;
@@ -541,17 +541,16 @@
   .signin-register {
     height: 1008px;
   }
-  .signin-unilifeease1c {
-    left: 0px;
-    right: 0px;
-    margin: auto;
-    display: none;
-  }
   .signin-unilifeease1 {
     left: 0px;
     right: 0px;
     margin: auto;
     display: flex;
+  }
+  .signin-unilifeease11 {
+    left: 0px;
+    right: 0px;
+    margin: auto;
   }
   .signin-group2 {
     left: 0px;
@@ -596,7 +595,8 @@
   }
   .signin-input1 {
     top: 210px;
-    left: 47px;
+    left: 0px;
+    right: 0px;
     margin: auto;
   }
   .signin-input2 {

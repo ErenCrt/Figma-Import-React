@@ -187,11 +187,13 @@ const Messenger = (props) => {
               className="messenger-rimenu4line"
             />
           </Link>
-          <img
-            alt="materialsymbolshome7118"
-            src="/playground_assets/materialsymbolshome7118-s8.svg"
-            className="messenger-materialsymbolshome"
-          />
+          <Link to="/main">
+            <img
+              alt="materialsymbolshome7118"
+              src="/playground_assets/materialsymbolshome7118-s8.svg"
+              className="messenger-materialsymbolshome"
+            />
+          </Link>
         </div>
         <img
           alt="unilifeease11361"
@@ -214,19 +216,19 @@ const Messenger = (props) => {
               data-role="Nav"
               className="messenger-nav"
             >
-              <Link to="/main" className="messenger-navlink4">
+              <Link to="/main" className="messenger-navlink05">
                 Home
               </Link>
-              <Link to="/appointments" className="messenger-navlink5">
+              <Link to="/appointments" className="messenger-navlink06">
                 Appointments
               </Link>
-              <Link to="/messenger" className="messenger-navlink6">
+              <Link to="/messenger" className="messenger-navlink07">
                 Messenger
               </Link>
-              <Link to="/mood" className="messenger-navlink7">
+              <Link to="/mood" className="messenger-navlink08">
                 Mood
               </Link>
-              <Link to="/settings" className="messenger-navlink8">
+              <Link to="/settings" className="messenger-navlink09">
                 Settings
               </Link>
             </nav>

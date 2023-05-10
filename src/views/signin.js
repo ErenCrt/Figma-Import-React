@@ -16,12 +16,12 @@ const Signin = (props) => {
         <img
           alt="unilifeease11317"
           src="/playground_assets/unilifeease11317-9088-300h.png"
-          className="signin-unilifeease1c"
+          className="signin-unilifeease1"
         />
         <img
-          alt="unilifeease11317"
-          src="/playground_assets/unilifeease11317-9088-300h.png"
-          className="signin-unilifeease1"
+          alt="unilifeease174"
+          src="/playground_assets/unilifeease174-xlyq-300h.png"
+          className="signin-unilifeease11"
         />
         <div className="signin-group2">
           <span className="signin-text">

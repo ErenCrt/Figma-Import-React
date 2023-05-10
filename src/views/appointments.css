@@ -1024,11 +1024,8 @@
   text-decoration: none;
 }
 .appointments-materialsymbolshome1 {
-  top: 3.00347900390625px;
-  left: 121.99652099609375px;
   width: 42px;
   height: 42px;
-  position: absolute;
 }
 .appointments-rectangle101 {
   top: 724px;
@@ -1121,11 +1118,6 @@
     bottom: 9px;
     height: 38px;
   }
-  .appointments-materialsymbolshome1 {
-    top: 1px;
-    left: 112px;
-    bottom: 7px;
-  }
 }
 @media(max-width: 767px) {
   .appointments-rectangle1 {
@@ -1190,10 +1182,6 @@
   .appointments-rimenu4line1 {
     right: -14px;
     bottom: -1px;
-  }
-  .appointments-materialsymbolshome1 {
-    top: 2px;
-    left: 121px;
   }
 }
 @media(max-width: 479px) {

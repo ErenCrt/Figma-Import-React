@@ -770,6 +770,7 @@
 .main-materialsymbolshome {
   width: 42px;
   height: 42px;
+  text-decoration: none;
 }
 .main-notifications1 {
   top: 318px;
@@ -1344,22 +1345,22 @@
   align-items: center;
   flex-direction: row;
 }
-.main-navlink4 {
+.main-navlink05 {
   text-decoration: none;
 }
-.main-navlink5 {
+.main-navlink06 {
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.main-navlink6 {
+.main-navlink07 {
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.main-navlink7 {
+.main-navlink08 {
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.main-navlink8 {
+.main-navlink09 {
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
@@ -1714,16 +1715,16 @@
   .main-desktop-menu {
     display: none;
   }
-  .main-navlink5 {
+  .main-navlink06 {
     margin-left: var(--dl-space-space-unit);
   }
-  .main-navlink6 {
+  .main-navlink07 {
     margin-left: var(--dl-space-space-unit);
   }
-  .main-navlink7 {
+  .main-navlink08 {
     margin-left: var(--dl-space-space-unit);
   }
-  .main-navlink8 {
+  .main-navlink09 {
     margin-left: var(--dl-space-space-unit);
   }
   .main-btn-group {

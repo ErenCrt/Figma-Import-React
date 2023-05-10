@@ -167,11 +167,13 @@ const Settings = (props) => {
               className="settings-rimenu4line"
             />
           </Link>
-          <img
-            alt="materialsymbolshome7118"
-            src="/playground_assets/materialsymbolshome7118-s8.svg"
-            className="settings-materialsymbolshome"
-          />
+          <Link to="/main">
+            <img
+              alt="materialsymbolshome7118"
+              src="/playground_assets/materialsymbolshome7118-s8.svg"
+              className="settings-materialsymbolshome"
+            />
+          </Link>
         </div>
         <img
           alt="unilifeease11361"
@@ -189,19 +191,19 @@ const Settings = (props) => {
               data-role="Nav"
               className="settings-nav"
             >
-              <Link to="/main" className="settings-navlink4">
+              <Link to="/main" className="settings-navlink05">
                 Home
               </Link>
-              <Link to="/appointments" className="settings-navlink5">
+              <Link to="/appointments" className="settings-navlink06">
                 Appointments
               </Link>
-              <Link to="/messenger" className="settings-navlink6">
+              <Link to="/messenger" className="settings-navlink07">
                 Messenger
               </Link>
-              <Link to="/mood" className="settings-navlink7">
+              <Link to="/mood" className="settings-navlink08">
                 Mood
               </Link>
-              <Link to="/settings" className="settings-navlink8">
+              <Link to="/settings" className="settings-navlink09">
                 Settings
               </Link>
             </nav>
