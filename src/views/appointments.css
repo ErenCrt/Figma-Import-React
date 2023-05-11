@@ -8,7 +8,7 @@
 }
 .appointments-appointments {
   width: 100%;
-  height: 1000px;
+  height: 1062px;
   display: flex;
   overflow: hidden;
   position: relative;
@@ -736,7 +736,11 @@
   height: 42px;
   align-self: center;
   text-align: center;
+  transition: 0.3s;
   background-color: rgba(134, 84, 164, 0.79);
+}
+.appointments-button:active {
+  background-color: rgba(194, 108, 251, 0.79);
 }
 .appointments-navbar-interactive {
   width: 100%;
