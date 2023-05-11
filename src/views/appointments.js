@@ -119,10 +119,6 @@ const Appointments = (props) => {
               src="/playground_assets/line14130-y9k7.svg"
               className="appointments-line1"
             />
-            <img
-              alt="Rectangle114131"
-              src="/playground_assets/rectangle114131-6hivj-200w.png"
-            />
           </div>
           <img
             alt="uilschedule4410"
@@ -432,7 +428,7 @@ const Appointments = (props) => {
         <img
           alt="Rectangle11354"
           src="/playground_assets/rectangle11354-sho-200h.png"
-          className="appointments-rectangle11 appointments-rectangle11"
+          className="appointments-rectangle11"
         />
         <div className="appointments-container4">
           <Link to="/messenger">
